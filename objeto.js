@@ -13,6 +13,10 @@ let pessoa = {
         bairro: 'Messejana',
         cidade: 'Fortaleza',
         estado: 'Ceará',
+        localizacao: {
+            latitude: '123123',
+            longitude: '123123',
+        }
     },
     adicionar: function () {
         console.log('Adicionando...')
@@ -38,3 +42,6 @@ console.log(pessoa.dataNacimento);
 console.log(pessoa.endereco)
 console.log(pessoa.contato.email)
 console.log(pessoa.endereco.estado)
+console.log(pessoa.contato)
+// ao chamar uma propriedade que contém uma função, deve-se colocar os parênteses
+console.log(pessoa.adicionar())
