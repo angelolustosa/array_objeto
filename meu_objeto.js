@@ -1,0 +1,1 @@
+criar um objeto curso e quais propriedades possui, professor e sala podem se transforma em um objeto
